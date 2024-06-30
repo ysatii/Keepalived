@@ -45,9 +45,9 @@ apt install postgresql
 ## Решение 2
 
 1. `Создадим Две виртуальные машины и проверим с помощью команды ping видят ли они друг друга по сети` 
- Машина 1
+ Машина 1  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2.jpg)
- Машина 2
+ Машина 2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_1.jpg)
 
 1. ` Zabbix Agent`
