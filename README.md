@@ -108,6 +108,6 @@ apt install postgresql
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_10.jpg)  
  сервис на второй машине перешол в состояние мастер
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_11.jpg)  
- запустим сервис снова на первой машине 
+ запустим сервис снова на первой машине  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_11.jpg)  
  сервер 1 Мастер восстановил свою работоспособность! 
