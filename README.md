@@ -46,9 +46,9 @@ apt install postgresql
 
 1. `Создадим Две виртуальные машины и проверим с помощью команды ping видят ли они друг друга по сети` 
  Машина 1
- ![alt text](https://github.com/ysatii/gitlab-hw/blob/Keepalived/img1/image2.jpg)
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img1/image2.jpg)
  Машина 2
- ![alt text](https://github.com/ysatii/gitlab-hw/blob/Keepalived/img1/image2.jpg)
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img1/image2.jpg)
 
 1. ` Zabbix Agent`
  ```
