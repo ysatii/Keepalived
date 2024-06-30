@@ -3,30 +3,16 @@
 
 ## Задание 1
 
-### `Уст `
-## `Про `
+### ` `
+## ` `
 
-1. `В `
+1. ` `
  
 
-### `Требования к результату`
-
-1. `Прикрепите в файл README.md скриншот авторизации в админке.`
-2. `Приложите в файл README.md текст использованных команд в GitHub.`
-
-### Подготовим 3 машины на яндекс облаке, первую будем использовать в роли Zabbix Server, остальные будут клиентами, на них будет установлен агент 
-![alt text](https://github.com/ysatii/gitlab-hw/blob/zabbix/img1/image1_1.jpg)
-
+ 
 ## Решение 1
-1. `На машину с именем "zabbix-deb" установим PostgreSQL`
- ```
-apt update 
-
-apt install postgresql
- ```
-
-![alt text](https://github.com/ysatii/gitlab-hw/blob/zabbix/img1/image1_5.jpg)
-
+1. ` `
+ 
 ## Задание 2
 
  
