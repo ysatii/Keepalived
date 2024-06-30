@@ -112,11 +112,27 @@ apt install postgresql
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_12.jpg) 
  сервер 1 Мастер восстановил свою работоспособность! 
  
- 6. установим nginx  на оба сервера!
+ 6. `установим nginx  на оба сервера!`
  ```
  sudo apt-get install nginx
  ```
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_13.jpg)  
  
+ 7. `произведем проверку работоспособности nginx, проверим работу сервиса nginx на плавающем ip `
+ изменим страницу по умолчанию для первого сервера, ip 10.0.2.15  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_14.jpg)  
  
+ для второго сервера сервера, ip 10.0.2.4  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_15.jpg)  
  
+ проверим доступность на всех ip адресах
+ на сервер 1
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_16.jpg)  
+ 
+ на сервер 2
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_17.jpg)  
+
+ и на плавающем ip
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_18.jpg)  
+ как и ожидалось плавающий ip это сервер 1
+
