@@ -92,7 +92,12 @@ apt install postgresql
  ```  
   ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)  
  
-
-
-
+4. `Произвденем запуск сервисов`  
+ сервер 1, мастер  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_5.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_6.jpg)  
+ сервер 2, бэкап   
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_7.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_8.jpg)  
+ заметим что плаващий  10.0.2.100 только на сервер1 
 
