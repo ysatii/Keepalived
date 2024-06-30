@@ -42,7 +42,7 @@
  ```  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_2.jpg)
 
-3. `Произвденем настройку конфигурационных файлов`  
+3. `Произвдем настройку конфигурационных файлов`  
  Сервер1 , мастер к виду   
   ```
   vrrp_instance VI_1 {
@@ -76,9 +76,10 @@
  }
  
  ```
+ 
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)  
  
-4. `Произведем запуск сервисов`
+4. `Произведем запуск сервисов`  
  Сервер 1, мастер  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_5.jpg)  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_6.jpg)  
@@ -88,7 +89,7 @@
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_8.jpg)  
  Заметим что плаващий  10.0.2.100 только на сервер1, но с сервер 2 пинг проходит на 10.0.2.100 
  
-5. `Произведем проверку сервиса Keepalived`
+5. `Произведем проверку сервиса Keepalived`  
  Остановим сервис на сервер1 и проверим адреса  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_9.jpg)  
  
@@ -102,7 +103,7 @@
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_12.jpg) 
  сервер 1 Мастер восстановил свою работоспособность! 
  
-6. `установим nginx  на оба сервера!`
+6. `установим nginx  на оба сервера!`  
  ```
  sudo apt-get install nginx
  ```
