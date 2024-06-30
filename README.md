@@ -194,5 +194,18 @@ apt install postgresql
 
  сервер 2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_22.jpg)  
+ 
+ принудительно остановим nginx на первом сервере 1 и проверим работоспособность
+ 
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_23.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_24.jpg)  
+ 
+ работоспособность на сервере2 
+
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_25.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_26.jpg)   
+ 
+ 
+
   
   
