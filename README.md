@@ -129,10 +129,10 @@ apt install postgresql
  на сервер 1  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_16.jpg)  
  
- на сервер 2
+ на сервер 2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_17.jpg)  
 
- и на плавающем ip
+ и на плавающем ip  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_18.jpg)  
  как и ожидалось плавающий ip это сервер 1
 
