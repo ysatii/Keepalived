@@ -126,7 +126,7 @@ apt install postgresql
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_15.jpg)  
  
  проверим доступность на всех ip адресах
- на сервер 1
+ на сервер 1  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_16.jpg)  
  
  на сервер 2
