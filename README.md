@@ -56,7 +56,40 @@ apt install postgresql
  ```  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_2.jpg)
 
+3. `Произвденем настройку конфигурационных файлов`  
+ сервер1 , мастер к виду   
+  ```
+  vrrp_instance VI_1 {
+    	state MASTER
+    	interface enp0s3
+    	virtual_router_id 15
+    	priority 255
+    	advert_int 1
+
+    	virtual_ipaddress {
+          	10.0.2.100/24
+    	}
+ }
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_3.jpg)  
+
+ ```  
+ сервер 2, бэпап к виду   
+ ```
+ vrrp_instance VI_1 {
+    	state BACKUP
+    	interface enp0s3
+    	virtual_router_id 15
+    	priority 200
+    	advert_int 1
+
+    	virtual_ipaddress {
+          	10.0.2.100/24
+    	}
+
+ }
  
+ ```  
+  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)  
  
 
 
