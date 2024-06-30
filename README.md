@@ -184,5 +184,15 @@ apt install postgresql
  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_20.jpg)  
  
+ Перезапустим сервисы
+ 
+ ```
+ sudo systemctl restart keepalived
+ ```
+ сервер 1
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_21.jpg)  
+
+ сервер 2
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_22.jpg)  
   
   
