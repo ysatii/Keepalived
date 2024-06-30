@@ -50,19 +50,14 @@ apt install postgresql
  Машина 2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_1.jpg)
 
-1. ` Zabbix Agent`
+2. `Установим сервис на обе машины`
  ```
- apt update 
-
- apt install postgresql
- ```
+ sudo apt-get install keepalived
+ ```  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_2.jpg)
 
  
-![alt text](https://github.com/ysatii/gitlab-hw/blob/zabbix/img1/image2_14.jpg)
-
-Часть лога сервера, подтверждающая что разрешены подключения только с http://158.160.104.145   
-
-![alt text](https://github.com/ysatii/gitlab-hw/blob/zabbix/img1/image2_4.jpg)
+ 
 
 
 
