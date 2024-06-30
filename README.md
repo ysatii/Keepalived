@@ -92,7 +92,7 @@ apt install postgresql
  ```
   ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)
  
-4. `Произвдем запуск сервисов`
+4. `Произведем запуск сервисов`
  сервер 1, мастер  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_5.jpg)  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_6.jpg)  
@@ -101,7 +101,7 @@ apt install postgresql
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_8.jpg)  
  заметим что плаващий  10.0.2.100 только на сервер1, но с сервер 2 пинг проходит на 10.0.2.100 
  
-5. `Произвденем проверку сервиса Keepalived`
+5. `Произведем проверку сервиса Keepalived`
  остановим сервис на сервер1 и проверим адреса  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_9.jpg)  
  произведем пинг с сервер 1 на плавающий 10.0.2.100  
@@ -109,5 +109,14 @@ apt install postgresql
  сервис на второй машине перешол в состояние мастер
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_11.jpg)  
  запустим сервис снова на первой машине  
- ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_11.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_12.jpg) 
  сервер 1 Мастер восстановил свою работоспособность! 
+ 
+ 6. установим nginx  на оба сервера!
+ ```
+ sudo apt-get install nginx
+ ```
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_13.jpg)  
+ 
+ 
+ 
