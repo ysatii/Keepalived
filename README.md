@@ -70,11 +70,12 @@ apt install postgresql
           	10.0.2.100/24
     	}
  }
- ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_3.jpg)  
-
+ 
  ```  
+  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_3.jpg)  
  сервер 2, бэпап к виду   
  ```
+ 
  vrrp_instance VI_1 {
     	state BACKUP
     	interface enp0s3
