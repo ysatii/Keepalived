@@ -198,7 +198,7 @@
  Листинг /home/lamer/check_nginx.sh"
  ```
  #!/bin/bash
- if [[ $(netstat -tuln | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
+ if [[ $(netstat -tuln | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.html ]]; then
         exit 0
  else
         exit 1
@@ -250,8 +250,16 @@
  запустим nginx, видим что сервис вернул   keepalived свою работоспособность не сервер 1  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_30.jpg)  
  
+ Просмиотрим лог  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_31.jpg)  
+ 
+ Удалим файл /var/www/html/index.html   
+ сервер 1, nginx в работе  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_32.jpg)  
+ 
+ Сервер 2 в работке
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_33.jpg)  
+ 
+ при этом плавающий ип стал работать на сервер2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_34.jpg)  
   
