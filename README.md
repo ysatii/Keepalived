@@ -76,7 +76,7 @@
  }
  
  ```
-  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)  
  
 4. `Произведем запуск сервисов`
  Сервер 1, мастер  
