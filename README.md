@@ -203,7 +203,9 @@ apt install postgresql
  работоспособность на сервере2 
 
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_25.jpg)  
- ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_26.jpg)   
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_26.jpg)  
+ 
+ Плавающий IP переместился на сервер 2  
  
  
 
