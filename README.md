@@ -48,7 +48,7 @@ apt install postgresql
  Машина 1
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img1/image2.jpg)
  Машина 2
- ![alt text](https://github.com/ysatii/Keepalived/blob/main/img1/image2.jpg)
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img1/image2_1.jpg)
 
 1. ` Zabbix Agent`
  ```
