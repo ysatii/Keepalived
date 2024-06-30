@@ -193,7 +193,61 @@
  
  Плавающий IP переместился на сервер 2  
  
- 
-
+9. `отслеживание файла index.html, в случаи его отсутствия осуществляем перенос плающего IP`  
   
+ Листинг /home/lamer/check_nginx.sh"
+ ```
+ #!/bin/bash
+ if [[ $(netstat -tuln | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
+        exit 0
+ else
+        exit 1
+ fi
+ ```
+ приведен файл настроек сервер 1 к виду   
+ 
+ ```
+  vrrp_script check_script {
+      script "/home/lamer/check_nginx.sh"
+      interval 3
+  }
+
+#vrrp_track_process check_nginx {
+#       process "nginx"}
+
+ vrrp_instance VI_1 {
+    	state MASTER
+    	interface enp0s3
+    	virtual_router_id 15
+    	priority 255
+    	advert_int 1
+
+    	virtual_ipaddress {
+          	10.0.2.100/24
+    	}
+#        track_process {
+#	        check_nginx
+        
+#        }       
+        track_script {
+                   check_script
+        }
+ 
+ }
+
+ ```  
+ Перезапустим сервис   
+ 
+ ```
+ sudo systemctl status keepalived
+ ```  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_27.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_28.jpg)  
+ 
+ принудительно выключаем ngnix делая недоступным порт 80 на сервер 1  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_29.jpg)  
+ 
+ запустим nginx, видим что сервис вернул   keepalived свою работоспособность не сервер 1  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_30.jpg)  
+ 
   
