@@ -262,4 +262,10 @@
  
  при этом плавающий ип стал работать на сервер2  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_34.jpg)  
+ 
+ создадим файл index.html и проверим сотояние Keepalived на сервере 1
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_35.jpg)  
+ 
+ работа сервиса возвращена!
+ 
   
