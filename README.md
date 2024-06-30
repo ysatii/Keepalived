@@ -250,4 +250,8 @@
  запустим nginx, видим что сервис вернул   keepalived свою работоспособность не сервер 1  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_30.jpg)  
  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_31.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_32.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_33.jpg)  
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_34.jpg)  
   
