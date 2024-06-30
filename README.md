@@ -92,7 +92,7 @@ apt install postgresql
  ```
   ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_4.jpg)
  
-4. `Произвдем запуск сервисов`  
+4. `Произвдем запуск сервисов`
  сервер 1, мастер  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_5.jpg)  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_6.jpg)  
