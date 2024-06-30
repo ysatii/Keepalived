@@ -261,7 +261,7 @@
  Сервер 1, nginx в работе  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_32.jpg)  
  
- Сервер 2 в работке
+ Сервер 2 в работе  
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_33.jpg)  
  
  При этом плавающий ип стал работать на сервер2  
@@ -271,5 +271,7 @@
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_35.jpg)  
  
  Работа сервиса возвращена!
- 
-  
+ 9. `Листинги `  
+  -  конфигурационный файл сервер1  [файла](https://github.com/ysatii/Keepalived/blob/main/keepalived.conf_server1) 
+  -  конфигурационный файл сервер2  [файла](https://github.com/ysatii/Keepalived/blob/main/keepalived.conf_server2) 
+  - скрипт для проверки состояния порта 80, и файла index.html [файла](https://github.com/ysatii/Keepalived/blob/main/check_nginx.sh) 
