@@ -136,5 +136,53 @@ apt install postgresql
  ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_18.jpg)  
  как и ожидалось плавающий ip это сервер 1
  
-8. `отслеживание работоспособности проверка состояния nginx` 
+8. `отслеживание работоспособности проверка состояния nginx.` 
+ приведем конфигурационный файл сервера 1 к виду
+ ```
+ vrrp_track_process check_nginx {
+   	process "nginx"}
 
+ vrrp_instance VI_1 {
+    	state MASTER
+    	interface enp0s3
+    	virtual_router_id 15
+    	priority 255
+    	advert_int 1
+
+    	virtual_ipaddress {
+            	10.0.2.100/24
+    	}
+    	track_process {
+            	check_nginx
+    	}
+ 
+ }
+ ```
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_19.jpg)  
+ 
+ приведем конфигурационный файл  сервера 2 к виду
+ ```
+ vrrp_track_process check_nginx {
+   	process "nginx" }
+
+ vrrp_instance VI_1 {
+    	state BACKUP
+    	interface enp0s3
+    	virtual_router_id 15
+    	priority 200
+    	advert_int 1
+
+    	virtual_ipaddress {
+            	10.0.2.100/24
+    	}
+    	track_process {
+               	check_nginx
+    	}
+
+ }
+ ```
+ 
+ ![alt text](https://github.com/ysatii/Keepalived/blob/main/img/image2_20.jpg)  
+ 
+  
+  
